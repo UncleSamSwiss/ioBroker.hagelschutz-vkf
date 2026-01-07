@@ -26,8 +26,7 @@ Um diesen Adapter zu verwenden, müssen Sie sich bei "Hagelschutz - Einfach Auto
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-
-### **WORK IN PROGRESS**
+### 1.0.0 (2026-01-07)
 
 - (UncleSamSwiss) Rename to hagelschutz-vkf
 

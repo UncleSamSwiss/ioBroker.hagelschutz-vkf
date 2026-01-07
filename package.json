@@ -1,6 +1,6 @@
 {
   "name": "iobroker.hagelschutz-vkf",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
   "author": {
     "name": "UncleSamSwiss",

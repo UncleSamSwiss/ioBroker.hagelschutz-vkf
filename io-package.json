@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "hagelschutz-vkf",
-        "version": "0.1.1",
+        "version": "1.0.0",
         "news": {
+            "1.0.0": {
+                "en": "Rename to hagelschutz-vkf",
+                "de": "Umbenennen von hagelschutz-vkf",
+                "ru": "Оригинальное название: Hagelschutz-vkf",
+                "pt": "Mudar o nome para hagelschutz-vkf",
+                "nl": "Hernoemen naar hagelschutz-vkf",
+                "fr": "Renommer hagelschutz-vkf",
+                "it": "Rinominare a hagelschutz-vkf",
+                "es": "Renombre a hagelschutz-vkf",
+                "pl": "Zmień nazwę na hagelschutz- vkf",
+                "uk": "Переймен на гагельшуц-вкф",
+                "zh-cn": "重命名为 hagelschutz- vkf"
+            },
             "0.1.1": {
                 "en": "Fix build",
                 "de": "Fehleraufbau",
