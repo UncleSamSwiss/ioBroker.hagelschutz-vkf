@@ -18,7 +18,7 @@ Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicher
 > [!IMPORTANT]  
 > This adapter only works in Switzerland.
 
-Um diesen Adapter zu verwenden, müssen Sie sich bei "Hagelschutz - Einfach Automatisch" [registrieren](https://www.hagelschutz-einfach-automatisch.ch/eigentuemer-verwaltungen/produkt/ich-habe-interesse.html). Nach der Registrierung erhalten Sie eine MAC-Adresse (deviceID) und einen Schnittstellentyp (hwtypeld) per E-Mail.",
+Um diesen Adapter zu verwenden, müssen Sie sich bei "Hagelschutz - Einfach Automatisch" [registrieren](https://www.hagelschutz-einfach-automatisch.ch/eigentuemer-verwaltungen/produkt/ich-habe-interesse.html). Nach der Registrierung erhalten Sie eine MAC-Adresse (deviceID) und einen Schnittstellentyp (hwtypeld) per E-Mail.
 
 ## Changelog
 
