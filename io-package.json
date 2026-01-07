@@ -15,32 +15,6 @@
                 "pl": "Zmień nazwę na hagelschutz- vkf",
                 "uk": "Переймен на гагельшуц-вкф",
                 "zh-cn": "重命名为 hagelschutz- vkf"
-            },
-            "0.1.1": {
-                "en": "Fix build",
-                "de": "Fehleraufbau",
-                "ru": "Фиксация сборки",
-                "pt": "Construção de fixação",
-                "nl": "Bouwen herstellen",
-                "fr": "Correction de la construction",
-                "it": "Fissare la costruzione",
-                "es": "Construcción fija",
-                "pl": "Napraw budowę",
-                "uk": "Фіксація",
-                "zh-cn": "修复构建"
-            },
-            "0.1.0": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "uk": "Початкова версія",
-                "zh-cn": "首次出版"
             }
         },
         "titleLang": {
