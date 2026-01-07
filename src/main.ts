@@ -15,7 +15,7 @@ class Hagelschutz extends utils.Adapter {
     public constructor(options: Partial<utils.AdapterOptions> = {}) {
         super({
             ...options,
-            name: "hagelschutz",
+            name: "hagelschutz-vkf",
         });
         this.on("ready", this.onReady.bind(this));
         // this.on("objectChange", this.onObjectChange.bind(this));
@@ -34,8 +34,8 @@ class Hagelschutz extends utils.Adapter {
 
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
-        this.log.info(`config deviceID: ${this.config.deviceID}`);
-        this.log.info(`config hwtypeld: ${this.config.hwtypeld}`);
+        this.log.info(`Config deviceID: ${this.config.deviceID}`);
+        this.log.info(`Config hwtypeld: ${this.config.hwtypeld}`);
 
         this.checkInterval = this.setInterval(() => void this.checkHailStatus(), 120 * 1000); // Check every 2 minutes
         void this.checkHailStatus();
