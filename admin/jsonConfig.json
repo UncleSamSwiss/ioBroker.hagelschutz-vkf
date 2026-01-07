@@ -1,0 +1,46 @@
+{
+    "i18n": true,
+    "type": "panel",
+    "items": {
+        "_help": {
+            "type": "staticText",
+            "label": "Help",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 12,
+            "lg": 12,
+            "xl": 12
+        },
+        "_toRegistration": {
+            "type": "staticLink",
+            "label": "Registration",
+            "href": "https://www.hagelschutz-einfach-automatisch.ch/eigentuemer-verwaltungen/produkt/ich-habe-interesse.html",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 12,
+            "lg": 12,
+            "xl": 12
+        },
+        "deviceID": {
+            "type": "text",
+            "label": "MAC Address (deviceID)",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 6,
+            "lg": 4,
+            "xl": 4
+        },
+        "hwtypeld": {
+            "type": "number",
+            "label": "Interface (hwtypeld)",
+            "xs": 12,
+            "sm": 12,
+            "md": 6,
+            "lg": 4,
+            "xl": 4
+        }
+    }
+}

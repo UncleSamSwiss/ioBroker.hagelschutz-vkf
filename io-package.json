@@ -1,0 +1,137 @@
+{
+    "common": {
+        "name": "hagelschutz-vkf",
+        "version": "0.1.1",
+        "news": {
+            "0.1.1": {
+                "en": "Fix build",
+                "de": "Fehleraufbau",
+                "ru": "Фиксация сборки",
+                "pt": "Construção de fixação",
+                "nl": "Bouwen herstellen",
+                "fr": "Correction de la construction",
+                "it": "Fissare la costruzione",
+                "es": "Construcción fija",
+                "pl": "Napraw budowę",
+                "uk": "Фіксація",
+                "zh-cn": "修复构建"
+            },
+            "0.1.0": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "uk": "Початкова версія",
+                "zh-cn": "首次出版"
+            }
+        },
+        "titleLang": {
+            "en": "Hagelschutz - einfach automatisch",
+            "de": "Hagelschutz - einfach automatisch",
+            "ru": "Hagelschutz - einfach automatisch",
+            "pt": "Hagelschutz - einfach automatisch",
+            "nl": "Hagelschutz - einfach automatisch",
+            "fr": "Protection grêle - tout simplement automatique",
+            "it": "Hagelschutz - einfach automatisch",
+            "es": "Hagelschutz - einfach automatisch",
+            "pl": "Hagelschutz - einfach automatisch",
+            "uk": "Hagelschutz - einfach automatisch",
+            "zh-cn": "Hagelschutz - einfach automatisch"
+        },
+        "desc": {
+            "en": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "de": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "ru": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "pt": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "nl": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "fr": "Adaptateur pour protectiongrele.ch des établissements cantonaux d'assurance AECA",
+            "it": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "es": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "pl": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "uk": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
+            "zh-cn": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen"
+        },
+        "authors": ["UncleSamSwiss <samuel.weibel@gmail.com>"],
+        "keywords": ["hagelschutz", "schweiz", "vkf", "vkg", "gebäudeversicherung"],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "hagelschutz-vkf.jpg",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/UncleSamSwiss/ioBroker.hagelschutz-vkf/main/admin/hagelschutz-vkf.jpg",
+        "readme": "https://github.com/UncleSamSwiss/ioBroker.hagelschutz-vkf/blob/main/README.md",
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "weather",
+        "compact": true,
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "adminUI": {
+            "config": "json"
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=7.0.23"
+            }
+        ]
+    },
+    "native": {
+        "deviceID": "",
+        "hwtypeld": 0
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": "Information"
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": "Service connected",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "currentState",
+            "type": "state",
+            "common": {
+                "role": "value",
+                "name": "Current state of hail warning",
+                "type": "number",
+                "read": true,
+                "write": false,
+                "def": 0,
+                "states": {
+                    "0": "No hail warning",
+                    "1": "Hail warning active",
+                    "2": "Hail state triggered by test-alarm"
+                }
+            },
+            "native": {}
+        }
+    ]
+}
