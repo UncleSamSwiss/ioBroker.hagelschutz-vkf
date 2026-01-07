@@ -56,16 +56,8 @@
             "uk": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "zh-cn": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen"
         },
-        "authors": [
-            "UncleSamSwiss <samuel.weibel@gmail.com>"
-        ],
-        "keywords": [
-            "hagelschutz",
-            "schweiz",
-            "vkf",
-            "vkg",
-            "gebäudeversicherung"
-        ],
+        "authors": ["UncleSamSwiss <samuel.weibel@gmail.com>"],
+        "keywords": ["hagelschutz", "schweiz", "vkf", "vkg", "gebäudeversicherung"],
         "licenseInformation": {
             "type": "free",
             "license": "MIT"
@@ -138,6 +130,19 @@
                     "1": "Hail warning active",
                     "2": "Hail state triggered by test-alarm"
                 }
+            },
+            "native": {}
+        },
+        {
+            "_id": "hail",
+            "type": "state",
+            "common": {
+                "role": "sensor.alarm",
+                "name": "Hail or test alarm active",
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
             },
             "native": {}
         }

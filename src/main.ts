@@ -74,6 +74,7 @@ class Hagelschutz extends utils.Adapter {
 
             await this.setState("info.connection", true, true);
             await this.setState("currentState", data.currentState, true);
+            await this.setState("hail", !!data.currentState, true);
             this.log.debug(`Hail status set to ${data.currentState}`);
         } catch (error: any) {
             this.log.warn(`Error checking hail status: ${error}`);
