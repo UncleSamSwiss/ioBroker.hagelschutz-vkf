@@ -1,6 +1,7 @@
 {
-    "MAC Address (deviceID)": "Indirizzo MAC (DeviceID)",
+    "Help": "Per utilizzare questo adattatore, ï¿½ necessario registrarsi presso Hagelschutz - Einfach Automatisch. Dopo la registrazione, riceverai un dispositivo e un tipo di interfaccia HWTypeld via e -mail.",
     "Interface (hwtypeld)": "Interfaccia (HWTypeld)",
-    "Help": "Per utilizzare questo adattatore, è necessario registrarsi presso Hagelschutz - Einfach Automatisch. Dopo la registrazione, riceverai un dispositivo e un tipo di interfaccia HWTypeld via e -mail.",
-    "Registration": "Alla registrazione"
+    "MAC Address (deviceID)": "Indirizzo MAC (DeviceID)",
+    "Registration": "Alla registrazione",
+    "SystemPage": "Accedi a VKF Hagelschutz"
 }

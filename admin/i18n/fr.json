@@ -1,6 +1,7 @@
 {
-    "MAC Address (deviceID)": "Adresse MAC (DeviceID)",
-    "Interface (hwtypeld)": "Interface (hwtypeld)",
     "Help": "Pour utiliser cet adaptateur, vous devez vous inscrire à \"Protection grêle - tout simplement automatique\". Après l'inscription, vous recevrez une adresse MAC (deviceId) et un type d'interface (hwtypeld) par e-mail.",
-    "Registration": "À l'inscription"
+    "Interface (hwtypeld)": "Interface (hwtypeld)",
+    "MAC Address (deviceID)": "Adresse MAC (DeviceID)",
+    "Registration": "À l'inscription",
+    "SystemPage": "Connectez-vous à AEAI Protection Grêle"
 }

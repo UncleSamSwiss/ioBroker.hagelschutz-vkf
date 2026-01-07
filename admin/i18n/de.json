@@ -1,6 +1,7 @@
 {
-    "MAC Address (deviceID)": "MAC-Adresse (deviceID)",
-    "Interface (hwtypeld)": "Schnittstelle (hwtypeld)",
     "Help": "Um diesen Adapter zu verwenden, müssen Sie sich bei \"Hagelschutz - Einfach Automatisch\" registrieren. Nach der Registrierung erhalten Sie eine MAC-Adresse (deviceID) und einen Schnittstellentyp (hwtypeld) per E-Mail.",
-    "Registration": "Zur Registrierung"
+    "Interface (hwtypeld)": "Schnittstelle (hwtypeld)",
+    "MAC Address (deviceID)": "MAC-Adresse (deviceID)",
+    "Registration": "Zur Registrierung",
+    "SystemPage": "Einloggen bei VKF Hagelschutz"
 }

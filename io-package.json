@@ -56,8 +56,16 @@
             "uk": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen",
             "zh-cn": "Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen"
         },
-        "authors": ["UncleSamSwiss <samuel.weibel@gmail.com>"],
-        "keywords": ["hagelschutz", "schweiz", "vkf", "vkg", "gebäudeversicherung"],
+        "authors": [
+            "UncleSamSwiss <samuel.weibel@gmail.com>"
+        ],
+        "keywords": [
+            "hagelschutz",
+            "schweiz",
+            "vkf",
+            "vkg",
+            "gebäudeversicherung"
+        ],
         "licenseInformation": {
             "type": "free",
             "license": "MIT"

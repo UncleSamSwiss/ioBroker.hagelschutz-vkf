@@ -41,6 +41,17 @@
             "md": 6,
             "lg": 4,
             "xl": 4
+        },
+        "_toSystemPage": {
+            "type": "staticLink",
+            "label": "SystemPage",
+            "href": "https://meteo.netitservices.com",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 12,
+            "lg": 12,
+            "xl": 12
         }
     }
 }

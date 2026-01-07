@@ -1,6 +1,7 @@
 {
-    "MAC Address (deviceID)": "MAC -adres (DeviceId)",
-    "Interface (hwtypeld)": "Interface (HWTYPeld)",
     "Help": "Om deze adapter te gebruiken, moet u zich registreren bij Hagelschutz - Einfach Automatisch. Na registratie ontvangt u een DeviceID en een interfacetype HWTYPeld per e -mail.",
-    "Registration": "Registratie"
+    "Interface (hwtypeld)": "Interface (HWTYPeld)",
+    "MAC Address (deviceID)": "MAC -adres (DeviceId)",
+    "Registration": "Registratie",
+    "SystemPage": "Log in op VKF Hagelschutz"
 }
