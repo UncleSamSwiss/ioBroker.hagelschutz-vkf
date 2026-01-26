@@ -13,24 +13,10 @@
 
 ## Hagelschutz VKF adapter for ioBroker
 
-(🇩🇪 [siehe unten](#deutsch), 🇫🇷 [voir ci-dessous](#français))
-
 Adapter for hagelschutz-einfach-automatisch.ch of the cantonal building insurances.
 
 > [!IMPORTANT]  
 > This adapter only works in Switzerland.
-
-### Deutsch
-
-Adapter für hagelschutz-einfach-automatisch.ch der kantonalen Gebäudeversicherungen (VKG).
-
-Um diesen Adapter zu verwenden, müssen Sie sich bei "Hagelschutz - Einfach Automatisch" [registrieren](https://www.hagelschutz-einfach-automatisch.ch/eigentuemer-verwaltungen/produkt/ich-habe-interesse.html). Nach der Registrierung erhalten Sie eine MAC-Adresse (deviceID) und einen Schnittstellentyp (hwtypeld) per E-Mail.
-
-### Français
-
-Adaptateur pour protectiongrele.ch des établissements cantonaux d'assurance (ACEA).
-
-Pour utiliser cet adaptateur, vous devez [vous inscrire](https://www.protectiongrele.ch/propri%C3%A9taires-g%C3%A9rances/produit/formulaire.html) à "Protection grêle - tout simplement automatique". Après l'inscription, vous recevrez une adresse MAC (deviceID) et un type d'interface (hwtypeld) par e-mail.
 
 ## Changelog
 
@@ -38,6 +24,7 @@ Pour utiliser cet adaptateur, vous devez [vous inscrire](https://www.protectiong
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+
 ### 1.0.1 (2026-01-21)
 
 - (UncleSamSwiss) Code cleanup
