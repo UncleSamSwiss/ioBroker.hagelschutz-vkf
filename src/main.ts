@@ -7,7 +7,7 @@
 import * as utils from "@iobroker/adapter-core";
 
 // Load your modules here, e.g.:
-// import * as fs from "fs";
+// import * as fs from "node:fs";
 
 class Hagelschutz extends utils.Adapter {
     private checkInterval?: ioBroker.Interval;
