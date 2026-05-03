@@ -41,6 +41,8 @@ Adapter for hagelschutz-einfach-automatisch.ch of the cantonal building insuranc
 
 - (UncleSamSwiss) initial release
 
+[Older changelogs can be found there](CHANGELOG_OLD.md)
+
 ## License
 
 MIT License
