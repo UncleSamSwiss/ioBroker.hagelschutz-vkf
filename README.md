@@ -25,6 +25,9 @@ Adapter for hagelschutz-einfach-automatisch.ch of the cantonal building insuranc
     ### **WORK IN PROGRESS**
 -->
 
+### **WORK IN PROGRESS**
+- (copilot) Adapter requires node.js >= 22 now
+
 ### 1.0.1 (2026-01-21)
 
 - (UncleSamSwiss) Code cleanup
