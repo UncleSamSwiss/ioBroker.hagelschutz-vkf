@@ -20,6 +20,9 @@ Adapter for hagelschutz-einfach-automatisch.ch of the cantonal building insuranc
 
 ## Changelog
 
+### **WORK IN PROGRESS**
+- (iobroker-bot) Adapter requires node.js >= 22 now.
+
 <!--
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
